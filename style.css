@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", "sans-serif";
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background: #f3976c;
+}
+
+header,
+h1 {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.div-choice {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.btn-main {
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 16px;
+    box-shadow: 1px 1px 10px #202020;
+    text-transform: uppercase;
+}
+
+.btn-old {
+    border: 2px solid #f3976c;
+    background-color: #f3976c;
+    color: #fff;
+}
+
+.btn-old:hover {
+    background-color: white;
+    color: #f3976c;
+    box-shadow: 2px 2px 20px #404040;
+}
+
+.btn-new {
+    border: 2px solid #f3976c;
+    color: #f3976c;
+}
+
+.btn-new:hover {
+    background-color: #f3976c;
+    color: white;
+    box-shadow: 2px 2px 20px #404040;
+}
